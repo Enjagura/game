@@ -8,10 +8,10 @@ body {
 
 .grid-container {
     display: grid;
-    grid-template-columns: repeat(5, 100px); /* Beispiel: 3 Spalten mit einer Breite von 100px */
+    grid-template-columns: repeat(7, 100px); /* Beispiel: 3 Spalten mit einer Breite von 100px */
     gap: 10px; /* Abstand zwischen den Grid-Elementen */
-    perspective: 500px; /* Perspektive für 3D-Effekt */
-    transform: rotateX(45deg) rotateZ(45deg); /* Drehung um die X- und Y-Achse für den 3D-Effekt */
+    perspective: 500px; /* Perspektive fÃ¼r 3D-Effekt */
+    transform: rotateX(45deg) rotateZ(45deg); /* Drehung um die X- und Y-Achse fÃ¼r den 3D-Effekt */
 }
 
 .grid-item {
